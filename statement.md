@@ -1,6 +1,7 @@
 # Bonjour!
 
-Voici le programme python d'analyse combinatoire
+Voici un petit programme python d'analyse combinatoire
+Il permet de calculer les arrangements et les combinaisons de k parmi n pour desvaleur dépassant les capacités d'une calculatrice.
 
 ```python runnable
 def A(k, n):
@@ -34,7 +35,7 @@ def gamma(k, n):
     return C(k, n+k-1)
 
 def listA(k, S):
-    """Imprime les arrangements sans répétition de k lettres prises parmi les lettres de S"""
+    """Liste les arrangements sans répétition de k lettres prises parmi les lettres de S"""
     x = [] 
     if k == 1:
         for c in S:
@@ -52,7 +53,7 @@ def listA(k, S):
     return x
 
 def listC(k, S):
-    """Imprime les combinaisons sans répétition de k lettres prises parmi les lettres de S"""
+    """Liste les combinaisons sans répétition de k lettres prises parmi les lettres de S"""
     x = [] 
     if k == 1:
         for c in S:
@@ -71,7 +72,7 @@ def listC(k, S):
 
 
 def listGamma(k, S):
-    """Imprime les combinaisons avec répétition de k lettres prises parmi les lettres de S"""
+    """Liste les combinaisons avec répétition de k lettres prises parmi les lettres de S"""
     x = [] 
     if k == 1:
         for c in S:
