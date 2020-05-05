@@ -1,7 +1,7 @@
 # Bonjour!
 
-Voici un petit programme python d'analyse combinatoire
-Il permet de calculer les arrangements et les combinaisons de k parmi n pour desvaleur dépassant les capacités d'une calculatrice.
+Voici un petit programme python d'analyse combinatoire. 
+Il permet de calculer les arrangements et les combinaisons de k parmi n pour des valeurs dépassant les capacités d'une calculatrice.
 
 ```python runnable
 def A(k, n):
